@@ -1,12 +1,12 @@
 <?php
 
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "remotemysql.com";
+$username = "1XvT2tXL2V";
+$password = "XbaKFbxQ98";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password);
-mysqli_select_db($conn, 'db_fpd');
+mysqli_select_db($conn, '1XvT2tXL2V');
 
 $sql = mysqli_query($conn, "SELECT * FROM tbl_countries");
 
