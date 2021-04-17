@@ -91,6 +91,9 @@ $sql = mysqli_query($conn, "SELECT * FROM tbl_countries");
 						<select name="country" required>
 						    <option value="">-- Please Select Country --</option>
 							  <?php
+							$conn = mysqli_connect($servername, $username, $password);
+							print_r($conn); die;
+							mysqli_select_db($conn, '1XvT2tXL2V');
 							$sql = mysqli_query($conn, "SELECT * FROM tbl_countries");
 							  if (count($sql)) {
 								  foreach ($sql as $list) {
