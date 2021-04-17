@@ -1,5 +1,5 @@
 <?php
-require 'C:/wamp64/www/fardin/event/registration.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/fardin/event/registration.php';
 ?>
 <!DOCTYPE html>
 <html>
