@@ -1,7 +1,7 @@
 <?php
-// require_once $_SERVER['DOCUMENT_ROOT'] . '/fardin/event/registration.php';
-// echo $_SERVER['DOCUMENT_ROOT'] . '/fardin/event/registration.php';
-// die;
+require_once $_SERVER['DOCUMENT_ROOT'] . '/fardin/event/registration.php';
+echo $_SERVER['DOCUMENT_ROOT'] . '/fardin/event/registration.php';
+die;
 ?>
 <!DOCTYPE html>
 <html>
