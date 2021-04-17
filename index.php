@@ -9,8 +9,6 @@ $password = "XbaKFbxQ98";
 $conn = mysqli_connect($servername, $username, $password);
 mysqli_select_db($conn, '1XvT2tXL2V');
 
-print_r($conn); die;
-
 $sql = mysqli_query($conn, "SELECT * FROM tbl_countries");
 ?>
 <!DOCTYPE html>
