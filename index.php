@@ -1,6 +1,6 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . '/fardin/event/registration.php';
-echo $_SERVER['DOCUMENT_ROOT'] . '/fardin/event/registration.php';
+require_once($_SERVER['DOCUMENT_ROOT'] . '/fardin/event/registration.php');
+echo $_SERVER['DOCUMENT_ROOT'] . '/fardin/event/registration.php'; die;
 die;
 ?>
 <!DOCTYPE html>
