@@ -31,6 +31,19 @@ $sql = mysqli_query($conn, "SELECT * FROM tbl_countries");
 						<select name="country" required>
 						    <option value="">-- Please Select Country --</option>
 							  <?php
+							  $servername = "remotemysql.com";
+$username = "1XvT2tXL2V";
+$password = "XbaKFbxQ98";
+
+// Create connection
+$conn = mysqli_connect($servername, $username, $password);
+mysqli_select_db($conn, '1XvT2tXL2V');
+
+// print_r($conn); die;
+
+$sql = mysqli_query($conn, "SELECT * FROM tbl_countries");
+print_r($sql); die;
+
 							  if (count($sql)) {
 								  foreach ($sql as $list) {
 									  ?>
