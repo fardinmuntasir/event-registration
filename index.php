@@ -10,6 +10,7 @@ mysqli_select_db($conn, '1XvT2tXL2V');
 // print_r($conn); die;
 
 $sql = mysqli_query($conn, "SELECT * FROM tbl_countries");
+print_r($sql); echo die;
 ?>
 <!DOCTYPE html>
 <html>
@@ -42,7 +43,7 @@ mysqli_select_db($conn, '1XvT2tXL2V');
 // print_r($conn); die;
 
 $sql = mysqli_query($conn, "SELECT * FROM tbl_countries");
-print_r($sql); die;
+
 
 							  if (count($sql)) {
 								  foreach ($sql as $list) {
